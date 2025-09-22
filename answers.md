@@ -1,0 +1,8 @@
+### 1. If you only had 200 labeled replies, how would you improve the model without collecting thousands more?
+With only 200 labels, I'd use data augmentation techniques like synonym replacement or back-translation to generate synthetic examples. Additionally, leverage transfer learning from pre-trained models like BERT, fine-tuning on the small dataset with techniques like few-shot learning or active learning to prioritize uncertain samples. Semi-supervised learning, such as self-training with pseudo-labels on unlabeled data, could further boost performance without new labels.
+
+### 2. How would you ensure your reply classifier doesn’t produce biased or unsafe outputs in production?
+To mitigate bias, I'd audit the training data for imbalances (e.g., demographic biases in replies) and use debiasing techniques like reweighting samples or adversarial training. For safety, implement output guards like keyword filters for harmful content and monitor production predictions with human-in-the-loop feedback. Regular fairness evaluations using metrics like equalized odds across protected groups would ensure ongoing safety.
+
+### 3. Suppose you want to generate personalized cold email openers using an LLM. What prompt design strategies would you use to keep outputs relevant and non-generic?
+I'd use few-shot prompting with examples of personalized openers tailored to recipient details (e.g., name, company, recent events). Chain-of-thought prompting to reason about relevance, incorporating user-specific context like "Based on [prospect's recent LinkedIn post about X], generate an opener." Finally, include constraints in the prompt like "Keep it concise, relevant to industry, and avoid generic phrases like 'hope you're well'."
