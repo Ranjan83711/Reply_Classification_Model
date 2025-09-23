@@ -4,6 +4,9 @@ pandas
 matplotlib
 scikit-learn
 transformers==4.36.2
-torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cpu
 safetensors
+-f https://download.pytorch.org/whl/cpu
+
+
 
