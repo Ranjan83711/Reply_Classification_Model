@@ -7,8 +7,8 @@ This repo contains the implementation for the assignment: Reply Classification P
 - Dataset: `reply_classification_dataset.csv` (sample; replace with real if needed).
 
 ## Setup Instructions
-1. Clone this repo: `git clone <repo-url>`
-2. Create a virtual env: `conda create -n RCM python=3.12 -y` and activate it.
+1. Clone this repo: `https://github.com/Ranjan83711/Reply_Classification_Model.git`
+2. Create a virtual env: `conda create -n RCM python=3.13 -y` and activate it.
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run training: `python train_model.py` (saves model to `saved_model/`).
 5. Run API: `uvicorn main:app --reload`
@@ -16,4 +16,5 @@ This repo contains the implementation for the assignment: Reply Classification P
 
 ## Requirements
 See `requirements.txt`.
+
 
