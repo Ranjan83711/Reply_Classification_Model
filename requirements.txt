@@ -1,9 +1,11 @@
 fastapi
 uvicorn
 pandas
+matplotlib
 scikit-learn
 transformers
 torch
+
 
 
 
