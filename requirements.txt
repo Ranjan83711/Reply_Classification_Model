@@ -1,12 +1,10 @@
 fastapi
 uvicorn
 pandas
-matplotlib
 scikit-learn
-transformers==4.36.2
-torch==2.0.1+cpu
-safetensors
--f https://download.pytorch.org/whl/cpu
+transformers
+torch
+
 
 
 
