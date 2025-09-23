@@ -1,10 +1,10 @@
 ## Overview
 This repo contains the implementation for the assignment: Reply Classification Pipeline.
 
-- **Part A**: ML pipeline in `train_model.py` (trains baseline and DistilBERT, evaluates, saves model).
+- **Part A**: ML pipeline in `train_model.py` 
 - **Part B**: FastAPI deployment in `app.py`.
 - **Part C**: Answers in `answers.md`.
-- Dataset: `reply_classification_dataset.csv` (sample; replace with real if needed).
+- Dataset: `reply_classification_dataset.csv` .
 
 ## Setup Instructions
 1. Clone this repo: `https://github.com/Ranjan83711/Reply_Classification_Model.git`
@@ -16,5 +16,6 @@ This repo contains the implementation for the assignment: Reply Classification P
 
 ## Requirements
 See `requirements.txt`.
+
 
 
